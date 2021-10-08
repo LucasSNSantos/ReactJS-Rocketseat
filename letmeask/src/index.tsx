@@ -4,14 +4,12 @@ import App from './App';
 import {Button} from './Components/Button'
 import './services/firebase';
 
+import './styles/global.scss';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Button />
-    <Button />
-    <Button />
   </React.StrictMode>,
   document.getElementById('root')
 );
